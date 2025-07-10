@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/default/debug/CRC_sec.X.debug.elf">                 
+    <memory name="program">              
+      <units>bytes</units>                 
+      <length>4096</length>                 
+      <used>2778</used>                     
+      <free>1318</free>                     
+    </memory>                              
+    <memory name="data">                 
+      <units>bytes</units>                 
+      <length>256</length>                 
+      <used>0</used>                     
+      <free>256</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 
