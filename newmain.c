@@ -15,6 +15,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <stddef.h>
+#include <avr/wdt.h>
 
 #define USART0_BAUD_RATE(BAUD_RATE) ((float)(F_CPU * 64 / (16 * (float)BAUD_RATE)) + 0.5)
 #define MAX_INPUT_LEN 57
@@ -24,8 +25,10 @@
 
 void USART0_init(void);
 void BOD_init(void);
+void WDT_init(void);
 void USART0_sendChar(char c);
 void USART0_sendString(char *str);
+void USART0_sendHexByte(uint8_t byte);
 char USART0_readCharLow(void);
 char USART0_readCharHigh(void);
 void readEEPROMAndSend(void);
@@ -69,6 +72,12 @@ void BOD_init(void)
     BOD.INTCTRL |= BOD_VLMIE_bm;
 }
 
+void WDT_init(void)
+{
+    _PROTECTED_WRITE(WDT.CTRLA, 0x00);
+    _PROTECTED_WRITE(WDT.CTRLA, 0x8A);
+}
+
 void USART0_sendChar(char c)
 {
     while (!(USART0.STATUS & USART_DREIF_bm))
@@ -84,6 +93,13 @@ void USART0_sendString(char *str)
     {
         USART0_sendChar(str[i]);
     }
+}
+
+void USART0_sendHexByte(uint8_t byte)
+{
+    const char hex[] = "0123456789ABCDEF";
+    USART0_sendChar(hex[(byte >> 4) & 0x0F]);
+    USART0_sendChar(hex[byte & 0x0F]);
 }
 
 char USART0_readCharLow(void)
@@ -116,6 +132,9 @@ void readEEPROMAndSend(void)
         }
         USART0_sendChar(eepromData[i]);
     }
+    uint8_t crc = crc8((const uint8_t *)eepromData, strlen(eepromData));
+    USART0_sendString(" CRC: ");
+    USART0_sendHexByte(crc);
     USART0_sendChar('\n'); // Send a newline after sending all characters
 }
 
@@ -352,8 +371,10 @@ int main(void)
     char input[MAX_INPUT_LEN];
     uint8_t index = 0;
     char c;
+    
     BOD_init();
     USART0_init();
+    WDT_init();
     
     if (eeprom_read_byte((const uint8_t *)CONTINUE_SENDING_FLAG_ADDR) == 0xFF) 
     {
@@ -364,6 +385,7 @@ int main(void)
     {
         while (1)
         {
+            wdt_reset();
             enterSleepMode();
             
             uint8_t meta = USART0_readCharHigh();
@@ -405,6 +427,7 @@ int main(void)
     
     while (1) 
     {
+        wdt_reset();
         enterSleepMode();
         
         uint8_t meta = USART0_readCharHigh();

@@ -3,17 +3,17 @@ Archive member included to satisfy reference by file (symbol)
 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
                               C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o (exit)
 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(strcmp.o)
-                              build/default/debug/newmain.o (strcmp)
+                              build/default/production/newmain.o (strcmp)
 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(_Exit.o)
                               c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o) (_Exit)
 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
-                              build/default/debug/newmain.o (eeprom_write_block)
+                              build/default/production/newmain.o (eeprom_write_block)
 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
-                              build/default/debug/newmain.o (eeprom_read_block)
+                              build/default/production/newmain.o (eeprom_read_block)
 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
-                              build/default/debug/newmain.o (eeprom_read_byte)
+                              build/default/production/newmain.o (eeprom_read_byte)
 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
-                              build/default/debug/newmain.o (eeprom_write_byte)
+                              build/default/production/newmain.o (eeprom_write_byte)
 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/avrxmega3/short-calls\libgcc.a(_exit.o)
                               c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(_Exit.o) (_exit)
 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/avrxmega3/short-calls\libgcc.a(_prologue.o)
@@ -29,9 +29,9 @@ Discarded input sections
 
  .data          0x0000000000000000        0x0 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
  .bss           0x0000000000000000        0x0 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
- .text          0x0000000000000000        0x0 build/default/debug/newmain.o
- .data          0x0000000000000000        0x0 build/default/debug/newmain.o
- .bss           0x0000000000000000        0x0 build/default/debug/newmain.o
+ .text          0x0000000000000000        0x0 build/default/production/newmain.o
+ .data          0x0000000000000000        0x0 build/default/production/newmain.o
+ .bss           0x0000000000000000        0x0 build/default/production/newmain.o
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
@@ -143,12 +143,10 @@ Address of section .data set to 0x803f00
                 0x0000000000008000                __RODATA_PM_OFFSET__ = 0x8000
 LOAD C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
                 0x0000000000000001                __MPLAB_BUILD = 0x1
-LOAD build/default/debug/newmain.o
+LOAD build/default/production/newmain.o
 START GROUP
 LOAD c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libm.a
 END GROUP
-                0x0000000000000001                __MPLAB_DEBUG = 0x1
-                0x0000000000000001                __DEBUG = 0x1
 START GROUP
 LOAD c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/avrxmega3/short-calls\libgcc.a
 LOAD c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libm.a
@@ -399,7 +397,7 @@ END GROUP
 
 .comment        0x0000000000000000       0x8a
  *(.comment)
- .comment       0x0000000000000000       0x2f build/default/debug/newmain.o
+ .comment       0x0000000000000000       0x2f build/default/production/newmain.o
                                          0x30 (size before relaxing)
  .comment       0x000000000000002f       0x2c c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
                                          0x2d (size before relaxing)
@@ -464,7 +462,7 @@ END GROUP
 .debug_aranges  0x0000000000000000      0x160
  *(.debug_aranges)
  .debug_aranges
-                0x0000000000000000       0xe0 build/default/debug/newmain.o
+                0x0000000000000000       0xe0 build/default/production/newmain.o
  .debug_aranges
                 0x00000000000000e0       0x20 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
  .debug_aranges
@@ -477,19 +475,19 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x3e13
+.debug_info     0x0000000000000000     0x3e06
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000     0x19c7 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
- .debug_info    0x00000000000019c7     0x1be9 build/default/debug/newmain.o
- .debug_info    0x00000000000035b0      0x631 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
- .debug_info    0x0000000000003be1       0xbc C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
- .debug_info    0x0000000000003c9d       0xbb C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
- .debug_info    0x0000000000003d58       0xbb C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
+ .debug_info    0x00000000000019c7     0x1bdc build/default/production/newmain.o
+ .debug_info    0x00000000000035a3      0x631 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
+ .debug_info    0x0000000000003bd4       0xbc C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
+ .debug_info    0x0000000000003c90       0xbb C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
+ .debug_info    0x0000000000003d4b       0xbb C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
 
 .debug_abbrev   0x0000000000000000     0x1d38
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000     0x1864 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
- .debug_abbrev  0x0000000000001864      0x2f5 build/default/debug/newmain.o
+ .debug_abbrev  0x0000000000001864      0x2f5 build/default/production/newmain.o
  .debug_abbrev  0x0000000000001b59      0x1a3 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
  .debug_abbrev  0x0000000000001cfc       0x14 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
  .debug_abbrev  0x0000000000001d10       0x14 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
@@ -498,7 +496,7 @@ END GROUP
 .debug_line     0x0000000000000000      0xd53
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000      0x136 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
- .debug_line    0x0000000000000136      0x901 build/default/debug/newmain.o
+ .debug_line    0x0000000000000136      0x901 build/default/production/newmain.o
  .debug_line    0x0000000000000a37      0x17c C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
  .debug_line    0x0000000000000bb3       0x60 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
  .debug_line    0x0000000000000c13       0x7c C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
@@ -506,18 +504,18 @@ END GROUP
 
 .debug_frame    0x0000000000000000      0x354
  *(.debug_frame)
- .debug_frame   0x0000000000000000      0x31c build/default/debug/newmain.o
+ .debug_frame   0x0000000000000000      0x31c build/default/production/newmain.o
  .debug_frame   0x000000000000031c       0x38 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
 
 .debug_str      0x0000000000000000      0xb4a
  *(.debug_str)
  .debug_str     0x0000000000000000      0xab9 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
- .debug_str     0x0000000000000ab9       0x85 build/default/debug/newmain.o
+ .debug_str     0x0000000000000ab9       0x85 build/default/production/newmain.o
  .debug_str     0x0000000000000b3e        0xc C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
 
 .debug_loc      0x0000000000000000      0xb8a
  *(.debug_loc)
- .debug_loc     0x0000000000000000      0xa14 build/default/debug/newmain.o
+ .debug_loc     0x0000000000000000      0xa14 build/default/production/newmain.o
  .debug_loc     0x0000000000000a14      0x176 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
 
 .debug_macinfo
@@ -540,12 +538,12 @@ END GROUP
 
 .debug_ranges   0x0000000000000000      0x1a0
  *(.debug_ranges)
- .debug_ranges  0x0000000000000000      0x160 build/default/debug/newmain.o
+ .debug_ranges  0x0000000000000000      0x160 build/default/production/newmain.o
  .debug_ranges  0x0000000000000160       0x40 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
 
 .debug_macro
  *(.debug_macro)
-OUTPUT(dist/default/debug/CRC_sec.X.debug.elf elf32-avr)
+OUTPUT(dist/default/production/CRC_sec.X.production.elf elf32-avr)
 LOAD linker stubs
 LOAD data_init
 
@@ -555,27 +553,27 @@ LOAD data_init
                 0x0000000000000000       0x3c C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
 
 .rodata         0x0000000000808048      0x226 load address 0x0000000000000048
- .rodata        0x0000000000808048      0x226 build/default/debug/newmain.o
+ .rodata        0x0000000000808048      0x226 build/default/production/newmain.o
 
 .text.main      0x000000000000026e      0x106
- .text.main     0x000000000000026e      0x106 build/default/debug/newmain.o
+ .text.main     0x000000000000026e      0x106 build/default/production/newmain.o
                 0x000000000000026e                main
 
 .text.executeCallsign
                 0x0000000000000374       0xfa
  .text.executeCallsign
-                0x0000000000000374       0xfa build/default/debug/newmain.o
+                0x0000000000000374       0xfa build/default/production/newmain.o
                 0x0000000000000374                executeCallsign
 
 .text.sendChar  0x000000000000046e       0xf6
  .text.sendChar
-                0x000000000000046e       0xf6 build/default/debug/newmain.o
+                0x000000000000046e       0xf6 build/default/production/newmain.o
                 0x000000000000046e                sendChar
 
 .text.readEEPROMAndSend
                 0x0000000000000564       0x90
  .text.readEEPROMAndSend
-                0x0000000000000564       0x90 build/default/debug/newmain.o
+                0x0000000000000564       0x90 build/default/production/newmain.o
                 0x0000000000000564                readEEPROMAndSend
 
 .text.avrlibc   0x00000000000005f4       0x80
@@ -585,65 +583,65 @@ LOAD data_init
 .text.readEEPROMAndVerifyCRC
                 0x0000000000000674       0x72
  .text.readEEPROMAndVerifyCRC
-                0x0000000000000674       0x72 build/default/debug/newmain.o
+                0x0000000000000674       0x72 build/default/production/newmain.o
                 0x0000000000000674                readEEPROMAndVerifyCRC
 
 .text.readEEPROMAndSendLOG
                 0x00000000000006e6       0x6a
  .text.readEEPROMAndSendLOG
-                0x00000000000006e6       0x6a build/default/debug/newmain.o
+                0x00000000000006e6       0x6a build/default/production/newmain.o
                 0x00000000000006e6                readEEPROMAndSendLOG
 
 .text.USART0_sendHexByte
                 0x0000000000000750       0x5a
  .text.USART0_sendHexByte
-                0x0000000000000750       0x5a build/default/debug/newmain.o
+                0x0000000000000750       0x5a build/default/production/newmain.o
                 0x0000000000000750                USART0_sendHexByte
 
 .text.__vector_2
                 0x00000000000007aa       0x5a
  .text.__vector_2
-                0x00000000000007aa       0x5a build/default/debug/newmain.o
+                0x00000000000007aa       0x5a build/default/production/newmain.o
                 0x00000000000007aa                __vector_2
 
 .text.USART0_init
                 0x0000000000000804       0x4a
  .text.USART0_init
-                0x0000000000000804       0x4a build/default/debug/newmain.o
+                0x0000000000000804       0x4a build/default/production/newmain.o
                 0x0000000000000804                USART0_init
 
 .text.writeToEEPROM
                 0x000000000000084e       0x46
  .text.writeToEEPROM
-                0x000000000000084e       0x46 build/default/debug/newmain.o
+                0x000000000000084e       0x46 build/default/production/newmain.o
                 0x000000000000084e                writeToEEPROM
 
 .text.USART0_sendString
                 0x0000000000000894       0x42
  .text.USART0_sendString
-                0x0000000000000894       0x42 build/default/debug/newmain.o
+                0x0000000000000894       0x42 build/default/production/newmain.o
                 0x0000000000000894                USART0_sendString
 
 .text.initializeEEPROM
                 0x00000000000008d6       0x3e
  .text.initializeEEPROM
-                0x00000000000008d6       0x3e build/default/debug/newmain.o
+                0x00000000000008d6       0x3e build/default/production/newmain.o
                 0x00000000000008d6                initializeEEPROM
 
 .text.sendNumber
                 0x0000000000000914       0x3c
  .text.sendNumber
-                0x0000000000000914       0x3c build/default/debug/newmain.o
+                0x0000000000000914       0x3c build/default/production/newmain.o
                 0x0000000000000914                sendNumber
 
 .text.stopAllFunctions
                 0x0000000000000950       0x38
  .text.stopAllFunctions
-                0x0000000000000950       0x38 build/default/debug/newmain.o
+                0x0000000000000950       0x38 build/default/production/newmain.o
                 0x0000000000000950                stopAllFunctions
 
 .text.crc8      0x0000000000000988       0x36
- .text.crc8     0x0000000000000988       0x36 build/default/debug/newmain.o
+ .text.crc8     0x0000000000000988       0x36 build/default/production/newmain.o
                 0x0000000000000988                crc8
 
 .text.libgcc.prologue
@@ -666,19 +664,19 @@ LOAD data_init
 .text.logEEPROMOperation
                 0x0000000000000a48       0x26
  .text.logEEPROMOperation
-                0x0000000000000a48       0x26 build/default/debug/newmain.o
+                0x0000000000000a48       0x26 build/default/production/newmain.o
                 0x0000000000000a48                logEEPROMOperation
 
 .text.enterSleepMode
                 0x0000000000000a6e       0x1e
  .text.enterSleepMode
-                0x0000000000000a6e       0x1e build/default/debug/newmain.o
+                0x0000000000000a6e       0x1e build/default/production/newmain.o
                 0x0000000000000a6e                enterSleepMode
 
 .text.enterPowerDown
                 0x0000000000000a8c       0x1e
  .text.enterPowerDown
-                0x0000000000000a8c       0x1e build/default/debug/newmain.o
+                0x0000000000000a8c       0x1e build/default/production/newmain.o
                 0x0000000000000a8c                enterPowerDown
 
 .text.strcmp    0x0000000000000aaa       0x1c
@@ -687,7 +685,7 @@ LOAD data_init
 
 .text.BOD_init  0x0000000000000ac6       0x16
  .text.BOD_init
-                0x0000000000000ac6       0x16 build/default/debug/newmain.o
+                0x0000000000000ac6       0x16 build/default/production/newmain.o
                 0x0000000000000ac6                BOD_init
 
 .text.memcpy    0x0000000000000adc       0x16
@@ -696,31 +694,31 @@ LOAD data_init
 
 .text.WDT_init  0x0000000000000af2       0x14
  .text.WDT_init
-                0x0000000000000af2       0x14 build/default/debug/newmain.o
+                0x0000000000000af2       0x14 build/default/production/newmain.o
                 0x0000000000000af2                WDT_init
 
 .text.getContinueSendingState
                 0x0000000000000b06       0x12
  .text.getContinueSendingState
-                0x0000000000000b06       0x12 build/default/debug/newmain.o
+                0x0000000000000b06       0x12 build/default/production/newmain.o
                 0x0000000000000b06                getContinueSendingState
 
 .text.USART0_sendChar
                 0x0000000000000b18       0x10
  .text.USART0_sendChar
-                0x0000000000000b18       0x10 build/default/debug/newmain.o
+                0x0000000000000b18       0x10 build/default/production/newmain.o
                 0x0000000000000b18                USART0_sendChar
 
 .text.USART0_readCharLow
                 0x0000000000000b28       0x10
  .text.USART0_readCharLow
-                0x0000000000000b28       0x10 build/default/debug/newmain.o
+                0x0000000000000b28       0x10 build/default/production/newmain.o
                 0x0000000000000b28                USART0_readCharLow
 
 .text.USART0_readCharHigh
                 0x0000000000000b38       0x10
  .text.USART0_readCharHigh
-                0x0000000000000b38       0x10 build/default/debug/newmain.o
+                0x0000000000000b38       0x10 build/default/production/newmain.o
                 0x0000000000000b38                USART0_readCharHigh
 
 .text.avrlibc   0x0000000000000b48       0x10
@@ -735,7 +733,7 @@ LOAD data_init
 .text.setContinueSendingState
                 0x0000000000000b66        0xa
  .text.setContinueSendingState
-                0x0000000000000b66        0xa build/default/debug/newmain.o
+                0x0000000000000b66        0xa build/default/production/newmain.o
                 0x0000000000000b66                setContinueSendingState
 
 .text.avrlibc   0x0000000000000b70        0x8

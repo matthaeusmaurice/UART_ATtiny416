@@ -1,5 +1,5 @@
-build/default/debug/newmain.o.d build/default/debug/newmain.o: newmain.c \
- c:\program\ files\microchip\xc8\v3.00\avr\avr\include\avr\io.h \
+build/default/production/newmain.o.d build/default/production/newmain.o: \
+ newmain.c c:\program\ files\microchip\xc8\v3.00\avr\avr\include\avr\io.h \
  c:\program\ files\microchip\xc8\v3.00\avr\avr\include\avr\sfr_defs.h \
  c:\program\ files\microchip\xc8\v3.00\avr\avr\include\inttypes.h \
  c:\program\ files\microchip\xc8\v3.00\avr\avr\include\features.h \
