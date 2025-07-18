@@ -461,53 +461,53 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000      0x160
+.debug_aranges  0x0000000000000000      0x158
  *(.debug_aranges)
  .debug_aranges
-                0x0000000000000000       0xe0 build/default/debug/newmain.o
+                0x0000000000000000       0xd8 build/default/debug/newmain.o
  .debug_aranges
-                0x00000000000000e0       0x20 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
+                0x00000000000000d8       0x20 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
  .debug_aranges
-                0x0000000000000100       0x20 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
+                0x00000000000000f8       0x20 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
  .debug_aranges
-                0x0000000000000120       0x20 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
+                0x0000000000000118       0x20 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
  .debug_aranges
-                0x0000000000000140       0x20 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
+                0x0000000000000138       0x20 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x3e13
+.debug_info     0x0000000000000000     0x3d33
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000     0x19c7 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
- .debug_info    0x00000000000019c7     0x1be9 build/default/debug/newmain.o
- .debug_info    0x00000000000035b0      0x631 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
- .debug_info    0x0000000000003be1       0xbc C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
- .debug_info    0x0000000000003c9d       0xbb C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
- .debug_info    0x0000000000003d58       0xbb C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
+ .debug_info    0x00000000000019c7     0x1b09 build/default/debug/newmain.o
+ .debug_info    0x00000000000034d0      0x631 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
+ .debug_info    0x0000000000003b01       0xbc C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
+ .debug_info    0x0000000000003bbd       0xbb C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
+ .debug_info    0x0000000000003c78       0xbb C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
 
-.debug_abbrev   0x0000000000000000     0x1d38
+.debug_abbrev   0x0000000000000000     0x1d49
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000     0x1864 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
- .debug_abbrev  0x0000000000001864      0x2f5 build/default/debug/newmain.o
- .debug_abbrev  0x0000000000001b59      0x1a3 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
- .debug_abbrev  0x0000000000001cfc       0x14 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
- .debug_abbrev  0x0000000000001d10       0x14 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
- .debug_abbrev  0x0000000000001d24       0x14 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
+ .debug_abbrev  0x0000000000001864      0x306 build/default/debug/newmain.o
+ .debug_abbrev  0x0000000000001b6a      0x1a3 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
+ .debug_abbrev  0x0000000000001d0d       0x14 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
+ .debug_abbrev  0x0000000000001d21       0x14 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
+ .debug_abbrev  0x0000000000001d35       0x14 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
 
-.debug_line     0x0000000000000000      0xd53
+.debug_line     0x0000000000000000      0xd66
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000      0x136 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
- .debug_line    0x0000000000000136      0x901 build/default/debug/newmain.o
- .debug_line    0x0000000000000a37      0x17c C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
- .debug_line    0x0000000000000bb3       0x60 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
- .debug_line    0x0000000000000c13       0x7c C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
- .debug_line    0x0000000000000c8f       0xc4 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
+ .debug_line    0x0000000000000136      0x914 build/default/debug/newmain.o
+ .debug_line    0x0000000000000a4a      0x17c C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
+ .debug_line    0x0000000000000bc6       0x60 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
+ .debug_line    0x0000000000000c26       0x7c C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
+ .debug_line    0x0000000000000ca2       0xc4 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
 
-.debug_frame    0x0000000000000000      0x354
+.debug_frame    0x0000000000000000      0x310
  *(.debug_frame)
- .debug_frame   0x0000000000000000      0x31c build/default/debug/newmain.o
- .debug_frame   0x000000000000031c       0x38 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
+ .debug_frame   0x0000000000000000      0x2d8 build/default/debug/newmain.o
+ .debug_frame   0x00000000000002d8       0x38 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
 
 .debug_str      0x0000000000000000      0xb4a
  *(.debug_str)
@@ -515,10 +515,10 @@ END GROUP
  .debug_str     0x0000000000000ab9       0x85 build/default/debug/newmain.o
  .debug_str     0x0000000000000b3e        0xc C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
 
-.debug_loc      0x0000000000000000      0xb8a
+.debug_loc      0x0000000000000000      0xbc4
  *(.debug_loc)
- .debug_loc     0x0000000000000000      0xa14 build/default/debug/newmain.o
- .debug_loc     0x0000000000000a14      0x176 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
+ .debug_loc     0x0000000000000000      0xa4e build/default/debug/newmain.o
+ .debug_loc     0x0000000000000a4e      0x176 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -538,10 +538,10 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x0000000000000000      0x1a0
+.debug_ranges   0x0000000000000000      0x1a8
  *(.debug_ranges)
- .debug_ranges  0x0000000000000000      0x160 build/default/debug/newmain.o
- .debug_ranges  0x0000000000000160       0x40 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
+ .debug_ranges  0x0000000000000000      0x168 build/default/debug/newmain.o
+ .debug_ranges  0x0000000000000168       0x40 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
 
 .debug_macro
  *(.debug_macro)
@@ -554,244 +554,238 @@ LOAD data_init
  .note.gnu.avr.deviceinfo
                 0x0000000000000000       0x3c C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
 
-.rodata         0x0000000000808048      0x226 load address 0x0000000000000048
- .rodata        0x0000000000808048      0x226 build/default/debug/newmain.o
-
-.text.main      0x000000000000026e      0x106
- .text.main     0x000000000000026e      0x106 build/default/debug/newmain.o
-                0x000000000000026e                main
+.rodata         0x0000000000808048      0x1fe load address 0x0000000000000048
+ .rodata        0x0000000000808048      0x1fe build/default/debug/newmain.o
 
 .text.executeCallsign
-                0x0000000000000374       0xfa
+                0x0000000000000246      0x122
  .text.executeCallsign
-                0x0000000000000374       0xfa build/default/debug/newmain.o
-                0x0000000000000374                executeCallsign
+                0x0000000000000246      0x122 build/default/debug/newmain.o
+                0x0000000000000246                executeCallsign
 
-.text.sendChar  0x000000000000046e       0xf6
+.text.main      0x0000000000000368      0x106
+ .text.main     0x0000000000000368      0x106 build/default/debug/newmain.o
+                0x0000000000000368                main
+
+.text.sendChar  0x000000000000046e       0xf4
  .text.sendChar
-                0x000000000000046e       0xf6 build/default/debug/newmain.o
+                0x000000000000046e       0xf4 build/default/debug/newmain.o
                 0x000000000000046e                sendChar
 
 .text.readEEPROMAndSend
-                0x0000000000000564       0x90
+                0x0000000000000562       0x80
  .text.readEEPROMAndSend
-                0x0000000000000564       0x90 build/default/debug/newmain.o
-                0x0000000000000564                readEEPROMAndSend
+                0x0000000000000562       0x80 build/default/debug/newmain.o
+                0x0000000000000562                readEEPROMAndSend
 
-.text.avrlibc   0x00000000000005f4       0x80
- .text.avrlibc  0x00000000000005f4       0x80 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
-                0x00000000000005f4                eeprom_write_block
-
-.text.readEEPROMAndVerifyCRC
-                0x0000000000000674       0x72
- .text.readEEPROMAndVerifyCRC
-                0x0000000000000674       0x72 build/default/debug/newmain.o
-                0x0000000000000674                readEEPROMAndVerifyCRC
+.text.avrlibc   0x00000000000005e2       0x80
+ .text.avrlibc  0x00000000000005e2       0x80 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_block_xmega.o)
+                0x00000000000005e2                eeprom_write_block
 
 .text.readEEPROMAndSendLOG
-                0x00000000000006e6       0x6a
+                0x0000000000000662       0x6a
  .text.readEEPROMAndSendLOG
-                0x00000000000006e6       0x6a build/default/debug/newmain.o
-                0x00000000000006e6                readEEPROMAndSendLOG
-
-.text.USART0_sendHexByte
-                0x0000000000000750       0x5a
- .text.USART0_sendHexByte
-                0x0000000000000750       0x5a build/default/debug/newmain.o
-                0x0000000000000750                USART0_sendHexByte
-
-.text.__vector_2
-                0x00000000000007aa       0x5a
- .text.__vector_2
-                0x00000000000007aa       0x5a build/default/debug/newmain.o
-                0x00000000000007aa                __vector_2
-
-.text.USART0_init
-                0x0000000000000804       0x4a
- .text.USART0_init
-                0x0000000000000804       0x4a build/default/debug/newmain.o
-                0x0000000000000804                USART0_init
+                0x0000000000000662       0x6a build/default/debug/newmain.o
+                0x0000000000000662                readEEPROMAndSendLOG
 
 .text.writeToEEPROM
-                0x000000000000084e       0x46
+                0x00000000000006cc       0x66
  .text.writeToEEPROM
-                0x000000000000084e       0x46 build/default/debug/newmain.o
-                0x000000000000084e                writeToEEPROM
+                0x00000000000006cc       0x66 build/default/debug/newmain.o
+                0x00000000000006cc                writeToEEPROM
+
+.text.USART0_sendHexByte
+                0x0000000000000732       0x5a
+ .text.USART0_sendHexByte
+                0x0000000000000732       0x5a build/default/debug/newmain.o
+                0x0000000000000732                USART0_sendHexByte
+
+.text.__vector_2
+                0x000000000000078c       0x5a
+ .text.__vector_2
+                0x000000000000078c       0x5a build/default/debug/newmain.o
+                0x000000000000078c                __vector_2
+
+.text.USART0_init
+                0x00000000000007e6       0x4a
+ .text.USART0_init
+                0x00000000000007e6       0x4a build/default/debug/newmain.o
+                0x00000000000007e6                USART0_init
 
 .text.USART0_sendString
-                0x0000000000000894       0x42
+                0x0000000000000830       0x42
  .text.USART0_sendString
-                0x0000000000000894       0x42 build/default/debug/newmain.o
-                0x0000000000000894                USART0_sendString
+                0x0000000000000830       0x42 build/default/debug/newmain.o
+                0x0000000000000830                USART0_sendString
+
+.text.crc8      0x0000000000000872       0x42
+ .text.crc8     0x0000000000000872       0x42 build/default/debug/newmain.o
+                0x0000000000000872                crc8
 
 .text.initializeEEPROM
-                0x00000000000008d6       0x3e
+                0x00000000000008b4       0x3e
  .text.initializeEEPROM
-                0x00000000000008d6       0x3e build/default/debug/newmain.o
-                0x00000000000008d6                initializeEEPROM
+                0x00000000000008b4       0x3e build/default/debug/newmain.o
+                0x00000000000008b4                initializeEEPROM
 
 .text.sendNumber
-                0x0000000000000914       0x3c
+                0x00000000000008f2       0x3c
  .text.sendNumber
-                0x0000000000000914       0x3c build/default/debug/newmain.o
-                0x0000000000000914                sendNumber
+                0x00000000000008f2       0x3c build/default/debug/newmain.o
+                0x00000000000008f2                sendNumber
 
 .text.stopAllFunctions
-                0x0000000000000950       0x38
+                0x000000000000092e       0x38
  .text.stopAllFunctions
-                0x0000000000000950       0x38 build/default/debug/newmain.o
-                0x0000000000000950                stopAllFunctions
-
-.text.crc8      0x0000000000000988       0x36
- .text.crc8     0x0000000000000988       0x36 build/default/debug/newmain.o
-                0x0000000000000988                crc8
+                0x000000000000092e       0x38 build/default/debug/newmain.o
+                0x000000000000092e                stopAllFunctions
 
 .text.libgcc.prologue
-                0x00000000000009be       0x32
+                0x0000000000000966       0x32
  .text.libgcc.prologue
-                0x00000000000009be       0x32 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/avrxmega3/short-calls\libgcc.a(_prologue.o)
-                0x00000000000009be                __prologue_saves__
+                0x0000000000000966       0x32 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/avrxmega3/short-calls\libgcc.a(_prologue.o)
+                0x0000000000000966                __prologue_saves__
 
 .text.libgcc.prologue
-                0x00000000000009f0       0x30
+                0x0000000000000998       0x30
  .text.libgcc.prologue
-                0x00000000000009f0       0x30 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/avrxmega3/short-calls\libgcc.a(_epilogue.o)
-                0x00000000000009f0                __epilogue_restores__
+                0x0000000000000998       0x30 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/avrxmega3/short-calls\libgcc.a(_epilogue.o)
+                0x0000000000000998                __epilogue_restores__
 
-.text.avrlibc   0x0000000000000a20       0x28
- .text.avrlibc  0x0000000000000a20       0x28 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
-                0x0000000000000a20                eeprom_write_byte
-                0x0000000000000a22                eeprom_write_r18
+.text.avrlibc   0x00000000000009c8       0x28
+ .text.avrlibc  0x00000000000009c8       0x28 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eewr_byte.o)
+                0x00000000000009c8                eeprom_write_byte
+                0x00000000000009ca                eeprom_write_r18
 
 .text.logEEPROMOperation
-                0x0000000000000a48       0x26
+                0x00000000000009f0       0x26
  .text.logEEPROMOperation
-                0x0000000000000a48       0x26 build/default/debug/newmain.o
-                0x0000000000000a48                logEEPROMOperation
+                0x00000000000009f0       0x26 build/default/debug/newmain.o
+                0x00000000000009f0                logEEPROMOperation
 
 .text.enterSleepMode
-                0x0000000000000a6e       0x1e
+                0x0000000000000a16       0x1e
  .text.enterSleepMode
-                0x0000000000000a6e       0x1e build/default/debug/newmain.o
-                0x0000000000000a6e                enterSleepMode
+                0x0000000000000a16       0x1e build/default/debug/newmain.o
+                0x0000000000000a16                enterSleepMode
 
 .text.enterPowerDown
-                0x0000000000000a8c       0x1e
+                0x0000000000000a34       0x1e
  .text.enterPowerDown
-                0x0000000000000a8c       0x1e build/default/debug/newmain.o
-                0x0000000000000a8c                enterPowerDown
+                0x0000000000000a34       0x1e build/default/debug/newmain.o
+                0x0000000000000a34                enterPowerDown
 
-.text.strcmp    0x0000000000000aaa       0x1c
- .text.strcmp   0x0000000000000aaa       0x1c c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(strcmp.o)
-                0x0000000000000aaa                strcmp
+.text.strcmp    0x0000000000000a52       0x1c
+ .text.strcmp   0x0000000000000a52       0x1c c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(strcmp.o)
+                0x0000000000000a52                strcmp
 
-.text.BOD_init  0x0000000000000ac6       0x16
+.text.BOD_init  0x0000000000000a6e       0x16
  .text.BOD_init
-                0x0000000000000ac6       0x16 build/default/debug/newmain.o
-                0x0000000000000ac6                BOD_init
+                0x0000000000000a6e       0x16 build/default/debug/newmain.o
+                0x0000000000000a6e                BOD_init
 
-.text.memcpy    0x0000000000000adc       0x16
- .text.memcpy   0x0000000000000adc       0x16 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(memcpy.o)
-                0x0000000000000adc                memcpy
+.text.memcpy    0x0000000000000a84       0x16
+ .text.memcpy   0x0000000000000a84       0x16 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(memcpy.o)
+                0x0000000000000a84                memcpy
 
-.text.WDT_init  0x0000000000000af2       0x14
+.text.WDT_init  0x0000000000000a9a       0x14
  .text.WDT_init
-                0x0000000000000af2       0x14 build/default/debug/newmain.o
-                0x0000000000000af2                WDT_init
+                0x0000000000000a9a       0x14 build/default/debug/newmain.o
+                0x0000000000000a9a                WDT_init
 
 .text.getContinueSendingState
-                0x0000000000000b06       0x12
+                0x0000000000000aae       0x12
  .text.getContinueSendingState
-                0x0000000000000b06       0x12 build/default/debug/newmain.o
-                0x0000000000000b06                getContinueSendingState
+                0x0000000000000aae       0x12 build/default/debug/newmain.o
+                0x0000000000000aae                getContinueSendingState
 
 .text.USART0_sendChar
-                0x0000000000000b18       0x10
+                0x0000000000000ac0       0x10
  .text.USART0_sendChar
-                0x0000000000000b18       0x10 build/default/debug/newmain.o
-                0x0000000000000b18                USART0_sendChar
+                0x0000000000000ac0       0x10 build/default/debug/newmain.o
+                0x0000000000000ac0                USART0_sendChar
 
 .text.USART0_readCharLow
-                0x0000000000000b28       0x10
+                0x0000000000000ad0       0x10
  .text.USART0_readCharLow
-                0x0000000000000b28       0x10 build/default/debug/newmain.o
-                0x0000000000000b28                USART0_readCharLow
+                0x0000000000000ad0       0x10 build/default/debug/newmain.o
+                0x0000000000000ad0                USART0_readCharLow
 
 .text.USART0_readCharHigh
-                0x0000000000000b38       0x10
+                0x0000000000000ae0       0x10
  .text.USART0_readCharHigh
-                0x0000000000000b38       0x10 build/default/debug/newmain.o
-                0x0000000000000b38                USART0_readCharHigh
+                0x0000000000000ae0       0x10 build/default/debug/newmain.o
+                0x0000000000000ae0                USART0_readCharHigh
 
-.text.avrlibc   0x0000000000000b48       0x10
- .text.avrlibc  0x0000000000000b48       0x10 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
-                0x0000000000000b48                eeprom_read_byte
-                0x0000000000000b50                eeprom_mapen
+.text.avrlibc   0x0000000000000af0       0x10
+ .text.avrlibc  0x0000000000000af0       0x10 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_byte.o)
+                0x0000000000000af0                eeprom_read_byte
+                0x0000000000000af8                eeprom_mapen
 
-.text.exit      0x0000000000000b58        0xe
- .text.exit     0x0000000000000b58        0xe c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
-                0x0000000000000b58                exit
+.text.exit      0x0000000000000b00        0xe
+ .text.exit     0x0000000000000b00        0xe c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
+                0x0000000000000b00                exit
 
 .text.setContinueSendingState
-                0x0000000000000b66        0xa
+                0x0000000000000b0e        0xa
  .text.setContinueSendingState
-                0x0000000000000b66        0xa build/default/debug/newmain.o
-                0x0000000000000b66                setContinueSendingState
+                0x0000000000000b0e        0xa build/default/debug/newmain.o
+                0x0000000000000b0e                setContinueSendingState
 
-.text.avrlibc   0x0000000000000b70        0x8
- .text.avrlibc  0x0000000000000b70        0x8 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
-                0x0000000000000b70                eeprom_read_block
+.text.avrlibc   0x0000000000000b18        0x8
+ .text.avrlibc  0x0000000000000b18        0x8 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls\libattiny416.a(eerd_block.o)
+                0x0000000000000b18                eeprom_read_block
 
-.text.abort     0x0000000000000b78        0x6
- .text.abort    0x0000000000000b78        0x6 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(abort.o)
-                0x0000000000000b78                abort
+.text.abort     0x0000000000000b20        0x6
+ .text.abort    0x0000000000000b20        0x6 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(abort.o)
+                0x0000000000000b20                abort
 
-.text           0x0000000000000b7e        0x2
- .text          0x0000000000000b7e        0x2 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
-                0x0000000000000b7e                __vector_22
-                0x0000000000000b7e                __vector_1
-                0x0000000000000b7e                __vector_24
-                0x0000000000000b7e                __vector_12
-                0x0000000000000b7e                __bad_interrupt
-                0x0000000000000b7e                __vector_6
-                0x0000000000000b7e                __vector_3
-                0x0000000000000b7e                __vector_23
-                0x0000000000000b7e                __vector_25
-                0x0000000000000b7e                __vector_11
-                0x0000000000000b7e                __vector_13
-                0x0000000000000b7e                __vector_17
-                0x0000000000000b7e                __vector_19
-                0x0000000000000b7e                __vector_7
-                0x0000000000000b7e                __vector_5
-                0x0000000000000b7e                __vector_4
-                0x0000000000000b7e                __vector_9
-                0x0000000000000b7e                __vector_21
-                0x0000000000000b7e                __vector_15
-                0x0000000000000b7e                __vector_8
-                0x0000000000000b7e                __vector_14
-                0x0000000000000b7e                __vector_10
-                0x0000000000000b7e                __vector_16
-                0x0000000000000b7e                __vector_18
-                0x0000000000000b7e                __vector_20
+.text           0x0000000000000b26        0x2
+ .text          0x0000000000000b26        0x2 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/ATtiny_DFP/3.2.268/xc8/avr/lib/avrxmega3/short-calls/crtattiny416.o
+                0x0000000000000b26                __vector_22
+                0x0000000000000b26                __vector_1
+                0x0000000000000b26                __vector_24
+                0x0000000000000b26                __vector_12
+                0x0000000000000b26                __bad_interrupt
+                0x0000000000000b26                __vector_6
+                0x0000000000000b26                __vector_3
+                0x0000000000000b26                __vector_23
+                0x0000000000000b26                __vector_25
+                0x0000000000000b26                __vector_11
+                0x0000000000000b26                __vector_13
+                0x0000000000000b26                __vector_17
+                0x0000000000000b26                __vector_19
+                0x0000000000000b26                __vector_7
+                0x0000000000000b26                __vector_5
+                0x0000000000000b26                __vector_4
+                0x0000000000000b26                __vector_9
+                0x0000000000000b26                __vector_21
+                0x0000000000000b26                __vector_15
+                0x0000000000000b26                __vector_8
+                0x0000000000000b26                __vector_14
+                0x0000000000000b26                __vector_10
+                0x0000000000000b26                __vector_16
+                0x0000000000000b26                __vector_18
+                0x0000000000000b26                __vector_20
 
 .text.__dummy_fini
-                0x0000000000000b80        0x2
+                0x0000000000000b28        0x2
  .text.__dummy_fini
-                0x0000000000000b80        0x2 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
-                0x0000000000000b80                _fini
+                0x0000000000000b28        0x2 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
+                0x0000000000000b28                _fini
 
 .text.__dummy_funcs_on_exit
-                0x0000000000000b82        0x2
+                0x0000000000000b2a        0x2
  .text.__dummy_funcs_on_exit
-                0x0000000000000b82        0x2 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
-                0x0000000000000b82                __funcs_on_exit
+                0x0000000000000b2a        0x2 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
+                0x0000000000000b2a                __funcs_on_exit
 
 .text.__dummy_simulator_exit
-                0x0000000000000b84        0x2
+                0x0000000000000b2c        0x2
  .text.__dummy_simulator_exit
-                0x0000000000000b84        0x2 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
-                0x0000000000000b84                __simulator_exit
+                0x0000000000000b2c        0x2 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(exit.o)
+                0x0000000000000b2c                __simulator_exit
 
-.text._Exit     0x0000000000000b86        0x2
- .text._Exit    0x0000000000000b86        0x2 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(_Exit.o)
-                0x0000000000000b86                _Exit
+.text._Exit     0x0000000000000b2e        0x2
+ .text._Exit    0x0000000000000b2e        0x2 c:/program files/microchip/xc8/v3.00/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega3/short-calls\libc.a(_Exit.o)
+                0x0000000000000b2e                _Exit
